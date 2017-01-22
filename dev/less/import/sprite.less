@@ -1,0 +1,242 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@-contact-user-big-name: 'Contact _ User-big';
+@-contact-user-big-x: 61px;
+@-contact-user-big-y: 0px;
+@-contact-user-big-offset-x: -61px;
+@-contact-user-big-offset-y: 0px;
+@-contact-user-big-width: 40px;
+@-contact-user-big-height: 38px;
+@-contact-user-big-total-width: 165px;
+@-contact-user-big-total-height: 137px;
+@-contact-user-big-image: '../../../build/img/sprite.png';
+@-contact-user-big: 61px 0px -61px 0px 40px 38px 165px 137px '../../../build/img/sprite.png' 'Contact _ User-big';
+@-contact-user-name: 'Contact _ User';
+@-contact-user-x: 111px;
+@-contact-user-y: 83px;
+@-contact-user-offset-x: -111px;
+@-contact-user-offset-y: -83px;
+@-contact-user-width: 14px;
+@-contact-user-height: 13px;
+@-contact-user-total-width: 165px;
+@-contact-user-total-height: 137px;
+@-contact-user-image: '../../../build/img/sprite.png';
+@-contact-user: 111px 83px -111px -83px 14px 13px 165px 137px '../../../build/img/sprite.png' 'Contact _ User';
+@-rectangle-23-copy-big-name: 'Rectangle 23 copy-big';
+@-rectangle-23-copy-big-x: 48px;
+@-rectangle-23-copy-big-y: 59px;
+@-rectangle-23-copy-big-offset-x: -48px;
+@-rectangle-23-copy-big-offset-y: -59px;
+@-rectangle-23-copy-big-width: 37px;
+@-rectangle-23-copy-big-height: 37px;
+@-rectangle-23-copy-big-total-width: 165px;
+@-rectangle-23-copy-big-total-height: 137px;
+@-rectangle-23-copy-big-image: '../../../build/img/sprite.png';
+@-rectangle-23-copy-big: 48px 59px -48px -59px 37px 37px 165px 137px '../../../build/img/sprite.png' 'Rectangle 23 copy-big';
+@-rectangle-9-name: 'Rectangle 9';
+@-rectangle-9-x: 135px;
+@-rectangle-9-y: 83px;
+@-rectangle-9-offset-x: -135px;
+@-rectangle-9-offset-y: -83px;
+@-rectangle-9-width: 11px;
+@-rectangle-9-height: 11px;
+@-rectangle-9-total-width: 165px;
+@-rectangle-9-total-height: 137px;
+@-rectangle-9-image: '../../../build/img/sprite.png';
+@-rectangle-9: 135px 83px -135px -83px 11px 11px 165px 137px '../../../build/img/sprite.png' 'Rectangle 9';
+@-shape-1-big-name: 'Shape 1-big';
+@-shape-1-big-x: 0px;
+@-shape-1-big-y: 59px;
+@-shape-1-big-offset-x: 0px;
+@-shape-1-big-offset-y: -59px;
+@-shape-1-big-width: 38px;
+@-shape-1-big-height: 38px;
+@-shape-1-big-total-width: 165px;
+@-shape-1-big-total-height: 137px;
+@-shape-1-big-image: '../../../build/img/sprite.png';
+@-shape-1-big: 0px 59px 0px -59px 38px 38px 165px 137px '../../../build/img/sprite.png' 'Shape 1-big';
+@-shape-1-name: 'Shape 1';
+@-shape-1-x: 118px;
+@-shape-1-y: 107px;
+@-shape-1-offset-x: -118px;
+@-shape-1-offset-y: -107px;
+@-shape-1-width: 15px;
+@-shape-1-height: 15px;
+@-shape-1-total-width: 165px;
+@-shape-1-total-height: 137px;
+@-shape-1-image: '../../../build/img/sprite.png';
+@-shape-1: 118px 107px -118px -107px 15px 15px 165px 137px '../../../build/img/sprite.png' 'Shape 1';
+@-shape-2-big-name: 'Shape 2-big';
+@-shape-2-big-x: 0px;
+@-shape-2-big-y: 107px;
+@-shape-2-big-offset-x: 0px;
+@-shape-2-big-offset-y: -107px;
+@-shape-2-big-width: 15px;
+@-shape-2-big-height: 30px;
+@-shape-2-big-total-width: 165px;
+@-shape-2-big-total-height: 137px;
+@-shape-2-big-image: '../../../build/img/sprite.png';
+@-shape-2-big: 0px 107px 0px -107px 15px 30px 165px 137px '../../../build/img/sprite.png' 'Shape 2-big';
+@-shape-2-name: 'Shape 2';
+@-shape-2-x: 156px;
+@-shape-2-y: 0px;
+@-shape-2-offset-x: -156px;
+@-shape-2-offset-y: 0px;
+@-shape-2-width: 9px;
+@-shape-2-height: 18px;
+@-shape-2-total-width: 165px;
+@-shape-2-total-height: 137px;
+@-shape-2-image: '../../../build/img/sprite.png';
+@-shape-2: 156px 0px -156px 0px 9px 18px 165px 137px '../../../build/img/sprite.png' 'Shape 2';
+@-shape-3-big-name: 'Shape 3-big';
+@-shape-3-big-x: 111px;
+@-shape-3-big-y: 45px;
+@-shape-3-big-offset-x: -111px;
+@-shape-3-big-offset-y: -45px;
+@-shape-3-big-width: 33px;
+@-shape-3-big-height: 28px;
+@-shape-3-big-total-width: 165px;
+@-shape-3-big-total-height: 137px;
+@-shape-3-big-image: '../../../build/img/sprite.png';
+@-shape-3-big: 111px 45px -111px -45px 33px 28px 165px 137px '../../../build/img/sprite.png' 'Shape 3-big';
+@-shape-3-name: 'Shape 3';
+@-shape-3-x: 87px;
+@-shape-3-y: 107px;
+@-shape-3-offset-x: -87px;
+@-shape-3-offset-y: -107px;
+@-shape-3-width: 21px;
+@-shape-3-height: 17px;
+@-shape-3-total-width: 165px;
+@-shape-3-total-height: 137px;
+@-shape-3-image: '../../../build/img/sprite.png';
+@-shape-3: 87px 107px -87px -107px 21px 17px 165px 137px '../../../build/img/sprite.png' 'Shape 3';
+@-shape-4-big-name: 'Shape 4-big';
+@-shape-4-big-x: 111px;
+@-shape-4-big-y: 0px;
+@-shape-4-big-offset-x: -111px;
+@-shape-4-big-offset-y: 0px;
+@-shape-4-big-width: 35px;
+@-shape-4-big-height: 35px;
+@-shape-4-big-total-width: 165px;
+@-shape-4-big-total-height: 137px;
+@-shape-4-big-image: '../../../build/img/sprite.png';
+@-shape-4-big: 111px 0px -111px 0px 35px 35px 165px 137px '../../../build/img/sprite.png' 'Shape 4-big';
+@-shape-4-name: 'Shape 4';
+@-shape-4-x: 25px;
+@-shape-4-y: 107px;
+@-shape-4-offset-x: -25px;
+@-shape-4-offset-y: -107px;
+@-shape-4-width: 22px;
+@-shape-4-height: 21px;
+@-shape-4-total-width: 165px;
+@-shape-4-total-height: 137px;
+@-shape-4-image: '../../../build/img/sprite.png';
+@-shape-4: 25px 107px -25px -107px 22px 21px 165px 137px '../../../build/img/sprite.png' 'Shape 4';
+@-vector-smart-object-big-name: 'Vector Smart Object-big';
+@-vector-smart-object-big-x: 0px;
+@-vector-smart-object-big-y: 0px;
+@-vector-smart-object-big-offset-x: 0px;
+@-vector-smart-object-big-offset-y: 0px;
+@-vector-smart-object-big-width: 51px;
+@-vector-smart-object-big-height: 49px;
+@-vector-smart-object-big-total-width: 165px;
+@-vector-smart-object-big-total-height: 137px;
+@-vector-smart-object-big-image: '../../../build/img/sprite.png';
+@-vector-smart-object-big: 0px 0px 0px 0px 51px 49px 165px 137px '../../../build/img/sprite.png' 'Vector Smart Object-big';
+@-vector-smart-object-name: 'Vector Smart Object';
+@-vector-smart-object-x: 57px;
+@-vector-smart-object-y: 107px;
+@-vector-smart-object-offset-x: -57px;
+@-vector-smart-object-offset-y: -107px;
+@-vector-smart-object-width: 20px;
+@-vector-smart-object-height: 19px;
+@-vector-smart-object-total-width: 165px;
+@-vector-smart-object-total-height: 137px;
+@-vector-smart-object-image: '../../../build/img/sprite.png';
+@-vector-smart-object: 57px 107px -57px -107px 20px 19px 165px 137px '../../../build/img/sprite.png' 'Vector Smart Object';
+@spritesheet-width: 165px;
+@spritesheet-height: 137px;
+@spritesheet-image: '../../../build/img/sprite.png';
+@spritesheet-sprites: @-contact-user-big @-contact-user @-rectangle-23-copy-big @-rectangle-9 @-shape-1-big @-shape-1 @-shape-2-big @-shape-2 @-shape-3-big @-shape-3 @-shape-4-big @-shape-4 @-vector-smart-object-big @-vector-smart-object;
+@spritesheet: 165px 137px '../../../build/img/sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}

@@ -1,0 +1,17 @@
+{
+  "name": "lookshop",
+  "version": "1.0.0",
+  "author": "RICO",
+  "description": "introduction to gulp",
+  "license": "none",
+  "repository": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlincluder": "^0.1.0",
+    "gulp-less": "^3.3.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp.spritesmith": "^6.3.0"
+  }
+}
