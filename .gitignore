@@ -1,0 +1,8 @@
+*.zip
+*.rar
+*.7z
+*.psd
+node_modules/
+build/
+.DS_Store
+Thumbs.db
