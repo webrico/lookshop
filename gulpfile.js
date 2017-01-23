@@ -5,16 +5,19 @@ var includer = require('gulp-htmlincluder');
 var liveraload = require('gulp-livereload');
 var spritecreator = require('gulp.spritesmith');
 var less = require('gulp-less');
+var rename = require('gulp-rename');
 
 gulp.task('sprite', function(){
 	var spriteData = gulp.src('dev/img/icons/*.png')
 		.pipe(spritecreator({
-			imgName: 'build/img/sprite.png',
-			cssName: 'dev/less/import/sprite.less',
+			imgName: '../img/sprite.png',
+			cssName: 'sprite.less',
 			cssFormat: 'less',
 			algorithm: 'binary-tree',
 			padding: 10
-		})).pipe(gulp.dest('./'));
+		}));
+		spriteData.img.pipe(rename('sprite.png')).pipe(gulp.dest('build/img/'));
+		spriteData.css.pipe(gulp.dest('dev/less/import/'));
 });
 
 gulp.task('server', function(){
